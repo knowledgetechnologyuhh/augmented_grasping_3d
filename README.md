@@ -7,7 +7,7 @@ Developmental Systems (TCDS), 2020.
 If you use this code or the dataset, please cite the following:
 
 ```
-article{kerzelabawi20enhancinggrasping,
+@article{kerzelabawi20enhancinggrasping,
 title={Enhancing a Neurocognitive Shared Visuomotor Model for Object Identification, 
         Localization, and Grasping With Learning From Auxiliary Tasks},
 author={Kerzel, Matthias and Abawi, Fares and Eppe, Manfred and Wermter, Stefan},
