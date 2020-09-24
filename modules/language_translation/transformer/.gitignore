@@ -1,0 +1,13 @@
+.DS_Store
+*.pyc
+*.pyo
+build
+MANIFEST
+dist
+*.swp
+.idea
+*.egg-info
+.venv
+*.h5
+logs
+snapshots

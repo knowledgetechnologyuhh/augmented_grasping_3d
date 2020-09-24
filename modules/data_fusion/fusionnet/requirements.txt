@@ -1,0 +1,12 @@
+six
+scipy
+sklearn
+cython
+Pillow
+opencv-python
+progressbar2
+tqdm
+pydot
+jsonpickle
+comet-ml
+hyperopt
