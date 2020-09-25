@@ -33,8 +33,8 @@ Ensure that the environment variables necessary for this project are correctly s
 **Always navigate to the bash script's directory before running it.**
 Before running the `env_vars.sh` it is important to set `$DS_PATH` to your dataset directory path.
 
-The dataset can be downloaded from our [page](https://www.inf.uni-hamburg.de/en/inst/ab/wtm/research/corpora.html#augmented_extended_train_robots), [kaggle](https://www.kaggle.com/fabawi/augmented-extended-train-robots) or by running `dataset_download.sh` in the [scripts](scripts) directory.
-On download completion, the vision dataset is postprocessed by running a python script within `$DS_PATH/VisionMultimodalCSV/virtual/Annotations` which creates 
+The dataset can be downloaded from our [Page](https://www.inf.uni-hamburg.de/en/inst/ab/wtm/research/corpora.html#augmented_extended_train_robots), from [Kaggle](https://www.kaggle.com/fabawi/augmented-extended-train-robots) or by running `dataset_download.sh` in the [scripts](scripts) directory.
+On download completion and extraction, the vision dataset is postprocessed by running a python script within `$DS_PATH/VisionMultimodalCSV/virtual/Annotations` which creates 
 a new directory within `virtual`. Make sure that you have `write` privileges for the `$DS_PATH` directory, following the modification of `env_vars.sh` and the dataset download.
 
 We recommend installing the model using the [Docker](docker) installation pipeline. Installing the 
