@@ -30,6 +30,7 @@ docker run -it \
     -e DISPLAY=$DISPLAY \
     -e COMET_API_KEY=$COMET_API_KEY \
     -e COMET_WORKSPACE=$COMET_API_KEY \
+    -e DS_PATH=/home/user/augmented_grasping_3d/datasets \
     -v /tmp/.X11-unix:/tmp/.X11-unix \
     -v $DS_PATH:/home/user/augmented_grasping_3d/datasets/ \
     --entrypoint "/bin/bash" \
