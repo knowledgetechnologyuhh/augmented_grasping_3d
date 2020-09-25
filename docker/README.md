@@ -12,7 +12,7 @@ To use your display within the docker container, run the following command on yo
 xhost +local:docker
 ```
 
-###build
+### build
 
 Navigate to this directory and run the following command:
 (copy you ssh private key into this directory under the name id_rsa)
