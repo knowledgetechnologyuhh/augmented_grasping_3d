@@ -1,7 +1,7 @@
 # Robot Grasping 3D
 
 This is the codebase for the article ["Enhancing a Neurocognitive Shared Visuomotor Model for Object Identification, 
-Localization, and Grasping With Learning From Auxiliary Tasks"](COMING SOON) published in the IEEE Transactions on Cognitive and 
+Localization, and Grasping With Learning From Auxiliary Tasks"](https://arxiv.org/abs/2009.12674) published in the IEEE Transactions on Cognitive and 
 Developmental Systems (TCDS), 2020.
 
 If you use this code or the dataset, please cite the following:
@@ -57,7 +57,7 @@ immediately visible on your online dashboard.
 
 ### Coming soon
 
-We will provide the [paper-specific](COMING SOON) configurations in the [scripts/experiments](scripts/experiments) directory shortly.
+We will provide the [paper-specific](https://arxiv.org/abs/2009.12674) configurations in the [scripts/experiments](scripts/experiments) directory shortly.
 These scripts would run the following model:
 
 ![Nico grasping prediction](resources/extended_architecture6-1.png)
