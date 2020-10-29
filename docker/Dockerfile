@@ -8,6 +8,13 @@ RUN apt-get  install -y python-tk libsm6 libxext6 libxrender-dev
 # install git
 RUN apt-get install -y git apt-utils
 RUN  apt-get -yqq install ssh
+RUN mkdir /root/.ssh/
+ADD id_rsa /root/.ssh/id_rsa
+#RUN echo "${SSH_PRIVATE_KEY}" > /root/.ssh/id_rsa
+RUN chmod 700 /root/.ssh/id_rsa
+RUN chown -R root:root /root/.ssh
+RUN touch /root/.ssh/known_hosts
+RUN ssh-keyscan github.com >> /root/.ssh/known_hosts
 
 RUN mkdir /home/user
 WORKDIR /home/user
