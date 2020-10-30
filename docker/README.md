@@ -33,6 +33,7 @@ docker run -it \
     -e DS_PATH=/home/user/augmented_grasping_3d/datasets \
     -v /tmp/.X11-unix:/tmp/.X11-unix \
     -v $DS_PATH:/home/user/augmented_grasping_3d/datasets/ \
+    -v "$(dirname "$PWD")"/scripts:/home/user/augmented_grasping_3d/scripts/ \
     --entrypoint "/bin/bash" \
     augmented_grasping_3d 
 ```
