@@ -18,6 +18,7 @@ RUN mkdir /home/user
 WORKDIR /home/user
 
 # RUN git clone --recurse-submodules git@github.com:knowledgetechnologyUHH/augmented_grasping_3d.git augmented_grasping_3d
-COPY ./ ../augmented_grasping_3d/
+RUN git clone --recurse-submodules https://github.com/knowledgetechnologyuhh/augmented_grasping_3d.git augmented_grasping_3d
+# COPY ./ ../augmented_grasping_3d/
 ENV LANG C.UTF-8
 RUN cd augmented_grasping_3d/scripts/ && ./setup_experiment_requirements.sh
