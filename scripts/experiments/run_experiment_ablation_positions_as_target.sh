@@ -26,9 +26,6 @@ source $virtual_env_name"/bin/activate"
 if [[ $(basename "$VIRTUAL_ENV") == "$virtual_env_name" ]]; then
   echo "Running experiments"
   
-  #env vars
-  source $project_dir/scripts/env_vars.sh
-  
   # export gpu
   export CUDA_VISIBLE_DEVICES=${2:-0}
 
